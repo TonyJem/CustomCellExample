@@ -115,6 +115,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="T4G-VF-1Pa"/>
+                    <connections>
+                        <outlet property="mainImageView" destination="Mri-NA-JuX" id="V0a-Fy-Kqi"/>
+                        <outlet property="titleLabel" destination="6cO-MD-RF7" id="8pS-be-7GE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kq5-VK-zdz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

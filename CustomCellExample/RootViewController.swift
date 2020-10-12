@@ -60,19 +60,17 @@ class RootViewController: UIViewController, UITableViewDataSource {
     }
     
     // MARK: - Navigation
-    
-    
-    /*
-
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "ShowDetailsViewControllerSegue" {
+            // Get the new view controller using segue.destination
+            let destinationVC = segue.destination as! DetailsViewController
+            
+            // Pass the selected object to the new view controller.
+            if let indexPath = self.videoListTableView.indexPathForSelectedRow{
+                let selectedVideo = videos[indexPath.row]
+                destinationVC.currentVideo = selectedVideo
+            }
+        }
     }
-     
-     ShowDetailsViewControllerSegue
-     
-    */
 
 }
