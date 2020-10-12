@@ -20,15 +20,15 @@ class RootViewController: UIViewController, UITableViewDataSource {
         
         var createdArray: [Video] = []
         
-        let video1 = Video(title: "Video1", previewImage: UIImage(named: "Video01")!)
-        let video2 = Video(title: "Video2", previewImage: UIImage(named: "Video02")!)
-        let video3 = Video(title: "Video3", previewImage: UIImage(named: "Video03")!)
-        let video4 = Video(title: "Video4", previewImage: UIImage(named: "Video04")!)
-        let video5 = Video(title: "Video5", previewImage: UIImage(named: "Video05")!)
-        let video6 = Video(title: "Video6", previewImage: UIImage(named: "Video06")!)
-        let video7 = Video(title: "Video7", previewImage: UIImage(named: "Video07")!)
-        let video8 = Video(title: "Video8", previewImage: UIImage(named: "Video08")!)
-        let video9 = Video(title: "Video9", previewImage: UIImage(named: "Video09")!)
+        let video1 = Video(title: "Video1 short title", previewImage: UIImage(named: "Video01")!)
+        let video2 = Video(title: "Video2 longer title example", previewImage: UIImage(named: "Video02")!)
+        let video3 = Video(title: "Video3 very-very long title example with very-very long boring text like lores impsum lupus est", previewImage: UIImage(named: "Video03")!)
+        let video4 = Video(title: "Video4 title here", previewImage: UIImage(named: "Video04")!)
+        let video5 = Video(title: "Video5 title here", previewImage: UIImage(named: "Video05")!)
+        let video6 = Video(title: "Video6 title here", previewImage: UIImage(named: "Video06")!)
+        let video7 = Video(title: "Video7 title here", previewImage: UIImage(named: "Video07")!)
+        let video8 = Video(title: "Video8 title here", previewImage: UIImage(named: "Video08")!)
+        let video9 = Video(title: "Video9 title here", previewImage: UIImage(named: "Video09")!)
         
         createdArray.append(video1)
         createdArray.append(video2)
