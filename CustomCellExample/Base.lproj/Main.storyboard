@@ -35,7 +35,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="67H-jg-N1e">
-                                                    <rect key="frame" x="202" y="39.5" width="162" height="21.5"/>
+                                                    <rect key="frame" x="202" y="39.5" width="46" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                                                 <constraint firstItem="67H-jg-N1e" firstAttribute="leading" secondItem="VDk-1L-62t" secondAttribute="trailing" constant="30" id="ZdP-Ks-i26"/>
                                                 <constraint firstItem="VDk-1L-62t" firstAttribute="leading" secondItem="cHy-CS-vWe" secondAttribute="leading" constant="30" id="dpz-gn-rhf"/>
                                                 <constraint firstItem="VDk-1L-62t" firstAttribute="centerY" secondItem="cHy-CS-vWe" secondAttribute="centerY" id="hXB-KH-9tq"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="67H-jg-N1e" secondAttribute="trailing" constant="30" id="nzS-t6-Tjg"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="67H-jg-N1e" secondAttribute="trailing" id="nzS-t6-Tjg"/>
                                                 <constraint firstItem="67H-jg-N1e" firstAttribute="centerY" secondItem="cHy-CS-vWe" secondAttribute="centerY" id="tw6-lL-enb"/>
                                             </constraints>
                                         </tableViewCellContentView>
