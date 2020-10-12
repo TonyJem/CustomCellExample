@@ -53,14 +53,11 @@ class RootViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
-        <#code#>
+        let cell = self.videoListTableView.dequeueReusableCell(withIdentifier: "VideoCell", for: indexPath) as! VideoCell
+        let currentVideo = videos[indexPath.row]
+        cell.createCell(for: currentVideo)
+        return cell
     }
-
-    
-    
-    
     
     // MARK: - Navigation
     
