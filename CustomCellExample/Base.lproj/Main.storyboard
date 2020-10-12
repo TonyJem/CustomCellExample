@@ -66,6 +66,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HQK-C8-wFi"/>
+                    <connections>
+                        <outlet property="videoListTableView" destination="62P-h4-GJy" id="Q4T-6I-laf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
