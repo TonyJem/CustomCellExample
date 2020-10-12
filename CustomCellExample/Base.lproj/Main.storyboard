@@ -50,6 +50,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="titleLabel" destination="67H-jg-N1e" id="9Ss-Uq-yw3"/>
+                                            <outlet property="videoImageView" destination="VDk-1L-62t" id="MT6-al-Ghl"/>
                                             <segue destination="Fap-HP-8WJ" kind="show" identifier="ShowDetailsViewControllerSegue" id="gDo-DB-fqQ"/>
                                         </connections>
                                     </tableViewCell>
