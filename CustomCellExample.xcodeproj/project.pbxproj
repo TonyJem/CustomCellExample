@@ -15,6 +15,7 @@
 		3A0EC1222534296200C0296F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EC1212534296200C0296F /* RootViewController.swift */; };
 		3A0EC1252534297200C0296F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EC1242534297200C0296F /* DetailsViewController.swift */; };
 		3A0EC1282534299400C0296F /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EC1272534299400C0296F /* VideoCell.swift */; };
+		3A0EC12B25342A5B00C0296F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EC12A25342A5B00C0296F /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3A0EC1212534296200C0296F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		3A0EC1242534297200C0296F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3A0EC1272534299400C0296F /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		3A0EC12A25342A5B00C0296F /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3A0EC1212534296200C0296F /* RootViewController.swift */,
 				3A0EC1242534297200C0296F /* DetailsViewController.swift */,
 				3A0EC1272534299400C0296F /* VideoCell.swift */,
+				3A0EC12A25342A5B00C0296F /* Video.swift */,
 				3A0EC1142534249E00C0296F /* Assets.xcassets */,
 				3A0EC1162534249E00C0296F /* LaunchScreen.storyboard */,
 				3A0EC1192534249E00C0296F /* Info.plist */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0EC1282534299400C0296F /* VideoCell.swift in Sources */,
+				3A0EC12B25342A5B00C0296F /* Video.swift in Sources */,
 				3A0EC10C2534249C00C0296F /* AppDelegate.swift in Sources */,
 				3A0EC10E2534249C00C0296F /* SceneDelegate.swift in Sources */,
 				3A0EC1222534296200C0296F /* RootViewController.swift in Sources */,
