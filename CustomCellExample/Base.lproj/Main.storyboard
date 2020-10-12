@@ -84,7 +84,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="mS4-nP-I8m">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="mS4-nP-I8m">
                                 <rect key="frame" x="65" y="343" width="284" height="210.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mri-NA-JuX">
@@ -102,8 +102,7 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="6cO-MD-RF7" firstAttribute="leading" secondItem="mS4-nP-I8m" secondAttribute="leading" id="7UF-Zf-z3j"/>
-                                    <constraint firstAttribute="trailing" secondItem="6cO-MD-RF7" secondAttribute="trailing" id="aGg-Hj-bkf"/>
+                                    <constraint firstItem="6cO-MD-RF7" firstAttribute="width" secondItem="Mri-NA-JuX" secondAttribute="width" id="Www-C4-qw6"/>
                                 </constraints>
                             </stackView>
                         </subviews>
